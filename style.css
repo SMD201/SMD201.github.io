@@ -1,0 +1,325 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Testimonials*/
+.testimonial-section {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.testimonial h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+/* Intro Section for Homepage */
+.intro {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.intro .learn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.intro input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.intro input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Seller Login Section */
+.seller-login {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.seller-login h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.seller-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.seller-login label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.seller-login input[type="text"],
+.seller-login input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.seller-login input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.seller-login input[type="submit"]:hover {
+    background-color: #555;
+
+}
+
+/* Search Section */
+.car-search {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.car-search h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.car-search form {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-search label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.car-search input[type="text"],
+.car-search input[type="email"],
+.car-search input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.car-search input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.car-search input[type="submit"]:hover {
+    background-color: #555;
+}
+/* About Us Section */
+.about-us {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.about-us label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Seller Registration Section */
+.seller-registration {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.seller-registration h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.seller-registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.seller-registration label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.seller-registration input[type="text"],
+.seller-registration input[type="email"],
+.seller-registration input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.seller-registration input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Add Car */
+.add-car {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-car h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.add-car form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-car label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add-car input[type="text"],
+.add-car input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-car input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

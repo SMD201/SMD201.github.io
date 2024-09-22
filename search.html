@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo" width="90">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="seller_login.html">Already A Seller?</a></li>
+                <li><a href="seller-registration.html">Seller Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="car-search">
+        <h1>Search for a Car</h1>
+        <form id="search-form" onsubmit="return validateSearchForm()">
+            <label for="model">Car Model:</label>
+            <input type="text" id="model" name="model" placeholder="e.g. Toyota, BMW,..."><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="e.g. Perth, Canberra,..."><br>
+
+            <input type="submit" value="Search">
+        </form>
+        <p id="error-message" class="error"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Car Sale. All rights reserved.</p>
+    </footer>
+    <script>
+        //Changing background color on focus and blur of form inputs
+        document.querySelectorAll('input').forEach(function(input) {
+            // When input field is focused selected
+            input.addEventListener('focus', function() {
+                input.style.backgroundColor = 'yellow';
+            });
+            
+            // When input field loses focus
+            input.addEventListener('blur', function() {
+                input.style.backgroundColor = 'white';
+            });
+        });
+
+        // Changing background color on button hover
+        document.querySelectorAll('input[type="submit"]').forEach(function(button) {
+            // When mouse enters the button
+            button.addEventListener('mouseover', function() {
+                button.style.backgroundColor = 'lightblue';
+            });
+            
+            // When mouse leaves the button
+            button.addEventListener('mouseout', function() {
+                button.style.backgroundColor = ''; 
+            });
+        });
+    </script>
+    </html>
